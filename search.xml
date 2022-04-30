@@ -4,9 +4,9 @@
   
     
     <entry>
-      <title>Hello Wolrd</title>
-      <link href="/2022/04/30/Hello-Wolrd/"/>
-      <url>/2022/04/30/Hello-Wolrd/</url>
+      <title>Hello World</title>
+      <link href="/2022/04/30/Hello-World/"/>
+      <url>/2022/04/30/Hello-World/</url>
       
         <content type="html"><![CDATA[<p><strong>Hello</strong><br>欢迎访问我的博客<br>我将会在这里分享一些有趣的知识、技术和事情等。</p><hr><p><strong>关于本博客</strong><br>基于Hexo搭建<br>主题：<a href="hexo-theme-matery">hexo-theme-matery</a></p>]]></content>
       
