@@ -6,7 +6,7 @@
   <link href="http://ksyiice.github.io/atom.xml" rel="self"/>
   
   <link href="http://ksyiice.github.io/"/>
-  <updated>2022-04-30T05:14:05.382Z</updated>
+  <updated>2022-05-04T03:27:18.782Z</updated>
   <id>http://ksyiice.github.io/</id>
   
   <author>
@@ -20,23 +20,25 @@
     <title>Hello World</title>
     <link href="http://ksyiice.github.io/2022/04/30/Hello-World/"/>
     <id>http://ksyiice.github.io/2022/04/30/Hello-World/</id>
-    <published>2022-04-30T04:15:29.000Z</published>
-    <updated>2022-04-30T05:14:05.382Z</updated>
+    <published>2022-04-29T16:00:00.000Z</published>
+    <updated>2022-05-04T03:27:18.782Z</updated>
     
-    <content type="html"><![CDATA[<p><strong>Hello</strong><br>欢迎访问我的博客<br>我将会在这里分享一些有趣的知识、技术和事情等。</p><hr><p><strong>关于本博客</strong><br>基于Hexo搭建<br>主题：<a href="https://github.com/blinkfox/hexo-theme-matery">hexo-theme-matery</a></p>]]></content>
+    <content type="html"><![CDATA[<h1><span id="hello">Hello</span></h1><p>欢迎访问我的博客<br>我将会在这里分享一些有趣的知识、技术和杂谈等。</p><hr><p><strong>关于我</strong><br>Github：<a href="https://github.com/KSYIICE">KSYIICE</a><br>bilibili：<a href="https://space.bilibili.com/432171645">神游的纸盒</a></p><hr><p><strong>关于本博客</strong><br>基于Hexo搭建</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;&lt;strong&gt;Hello&lt;/strong&gt;&lt;br&gt;欢迎访问我的博客&lt;br&gt;我将会在这里分享一些有趣的知识、技术和事情等。&lt;/p&gt;
+    <summary type="html">&lt;h1&gt;&lt;span id=&quot;hello&quot;&gt;Hello&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;欢迎访问我的博客&lt;br&gt;我将会在这里分享一些有趣的知识、技术和杂谈等。&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;关于本博客&lt;/strong&gt;&lt;br&gt;基于Hexo搭建&lt;br&gt;主题：&lt;a href=&quot;https://githu</summary>
+&lt;p&gt;&lt;strong&gt;关于我&lt;/strong&gt;&lt;br&gt;Github：&lt;a href=&quot;https://git</summary>
       
     
     
     
+    <category term="本站日志" scheme="http://ksyiice.github.io/categories/%E6%9C%AC%E7%AB%99%E6%97%A5%E5%BF%97/"/>
     
-    <category term="基本信息" scheme="http://ksyiice.github.io/tags/%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF/"/>
+    
+    <category term="Hello" scheme="http://ksyiice.github.io/tags/Hello/"/>
     
   </entry>
   
