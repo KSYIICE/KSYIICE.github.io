@@ -6,7 +6,7 @@
   <link href="http://ksyiice.github.io/atom.xml" rel="self"/>
   
   <link href="http://ksyiice.github.io/"/>
-  <updated>2022-05-13T15:52:38.676Z</updated>
+  <updated>2022-05-13T16:25:58.407Z</updated>
   <id>http://ksyiice.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://ksyiice.github.io/2022/04/30/Hello-World/"/>
     <id>http://ksyiice.github.io/2022/04/30/Hello-World/</id>
     <published>2022-04-29T16:00:00.000Z</published>
-    <updated>2022-05-13T15:52:38.676Z</updated>
+    <updated>2022-05-13T16:25:58.407Z</updated>
     
-    <content type="html"><![CDATA[<h1><span id="hello">Hello</span></h1><p>欢迎访问我的博客<br>我将会在这里分享一些有趣的知识、技术和杂谈等。</p><hr><p><strong>关于我</strong><br>Github：<a href="https://github.com/KSYIICE">KSYIICE</a><br>bilibili：<a href="https://space.bilibili.com/432171645">神游的纸盒</a></p><hr><p><strong>关于本博客</strong><br>基于Hexo搭建</p><pre><code>title: Hello Worlddate: 2022-04-30 00:00:00tags: 本站日志author: 神游Syiicetoc: truetop: truecategories: 本站日志img: /medias/featureimages/hello world.jpg</code></pre>]]></content>
+    <content type="html"><![CDATA[<h1><span id="hello">Hello</span></h1><p>欢迎访问我的博客<br>我将会在这里分享一些有趣的知识、技术和杂谈等。</p><hr><p><strong>关于我</strong><br>Github：<a href="https://github.com/KSYIICE">KSYIICE</a><br>bilibili：<a href="https://space.bilibili.com/432171645">神游的纸盒</a></p><hr><p><strong>关于本博客</strong><br>基于Hexo搭建</p>]]></content>
     
     
       
