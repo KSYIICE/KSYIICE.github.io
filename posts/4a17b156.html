@@ -12,12 +12,7 @@ charset="utf-8"></script>
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="Hello World, 神游的摸鱼池">
-    <meta name="description" content="Hello欢迎访问我的博客我将会在这里分享一些有趣的知识、技术和杂谈等。
-
-关于我Github：KSYIICEbilibili：神游的纸盒
-
-关于本博客基于Hexo搭建
-">
+    <meta name="description" content="本站第一篇文章，关于作者和本站（有时候会在这里测试新东西）。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -436,7 +431,7 @@ charset="utf-8"></script>
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1><span id="hello">Hello</span></h1><p>欢迎访问我的博客<br>我将会在这里分享一些有趣的知识、技术和杂谈等。</p>
+                <h1><span id="hello">Hello</span></h1><p>欢迎访问我的博客<br>我将会在这里分享一些有趣的知识、技术和杂谈等。👾👾👾</p>
 <hr>
 <p><strong>关于我</strong><br>Github：<a target="_blank" rel="noopener" href="https://github.com/KSYIICE">KSYIICE</a><br>bilibili：<a target="_blank" rel="noopener" href="https://space.bilibili.com/432171645">神游的纸盒</a></p>
 <hr>
@@ -467,7 +462,7 @@ charset="utf-8"></script>
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://syiice.vercel.app/2022/0430undefined.html">https://syiice.vercel.app/2022/0430undefined.html</a>
+                    <a href="https://syiice.vercel.app/posts/4a17b156.html">https://syiice.vercel.app/posts/4a17b156.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -586,7 +581,7 @@ charset="utf-8"></script>
                 <i class="far fa-dot-circle"></i>&nbsp;本篇
             </div>
             <div class="card">
-                <a href="/2022/0430undefined.html">
+                <a href="/posts/4a17b156.html">
                     <div class="card-image">
                         
                         <img src="/medias/featureimages/hello%20world.jpg" class="responsive-img" alt="Hello World">
@@ -597,7 +592,7 @@ charset="utf-8"></script>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            本站第一篇文章，关于作者和本站（有时候会在这里测试新东西）。
                         
                     </div>
                     <div class="publish-info">
@@ -635,7 +630,7 @@ charset="utf-8"></script>
                 本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/2022/0430undefined.html">
+                <a href="/posts/4a17b156.html">
                     <div class="card-image">
                         
                         <img src="/medias/featureimages/hello%20world.jpg" class="responsive-img" alt="Hello World">
@@ -646,7 +641,7 @@ charset="utf-8"></script>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            本站第一篇文章，关于作者和本站（有时候会在这里测试新东西）。
                         
                     </div>
                     <div class="publish-info">
@@ -809,7 +804,42 @@ charset="utf-8"></script>
             
             
             <br>
-
+            <script language=javascript>
+                function siteTime() {
+                    window.setTimeout("siteTime()", 1000);
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    /* Date.UTC() -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳)
+                    year - 作为date对象的年份，为4位年份值
+                    month - 0-11之间的整数，做为date对象的月份
+                    day - 1-31之间的整数，做为date对象的天数
+                    hours - 0(午夜24点)-23之间的整数，做为date对象的小时数
+                    minutes - 0-59之间的整数，做为date对象的分钟数
+                    seconds - 0-59之间的整数，做为date对象的秒数
+                    microseconds - 0-999之间的整数，做为date对象的毫秒数 */
+                    var t1 = Date.UTC(2017, 09, 11, 00, 00, 00); // 北京时间2018-2-13 00:00:00
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
+                    document.getElementById("sitetime").innerHTML = "本站已运行 " +diffYears+" 年 "+diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                }
+                siteTime();
+            </script>
+            
             <!-- 运行天数提醒. -->
             
                 <span id="sitetime"> Loading ...</span>
@@ -867,6 +897,7 @@ charset="utf-8"></script>
                 </script>
             
             <br>
+            
             
         </div>
         <div class="col s12 m4 l4 social-link ">
