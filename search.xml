@@ -4,6 +4,60 @@
   
     
     <entry>
+      <title>第一次用Unity制作游戏，但是是转转转</title>
+      <link href="/posts/8935.html"/>
+      <url>/posts/8935.html</url>
+      
+        <content type="html"><![CDATA[<iframe src="//player.bilibili.com/player.html?aid=480516808&amp;bvid=BV18T41117xN&amp;cid=970903682&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><p>Bibili：<a href="https://www.bilibili.com/video/BV18T41117xN">https://www.bilibili.com/video/BV18T41117xN</a><br>游戏链接：<a href="https://pan.baidu.com/s/1LHfCjvhambr7bt-9SOoXug?pwd=sy23">https://pan.baidu.com/s/1LHfCjvhambr7bt-9SOoXug?pwd=sy23</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Unity </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Unity </tag>
+            
+            <tag> 游戏制作 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何用Git将本地文件上传到Github？</title>
+      <link href="/posts/38763.html"/>
+      <url>/posts/38763.html</url>
+      
+        <content type="html"><![CDATA[<p><del>主要是最近几天上传文件到Github上时突然发现自己搞忘记怎么用Git上传了，所以写了这篇文章防自己又搞忘记</del></p><h2><span id="为什么用git上传文件">为什么用Git上传文件？</span></h2><p>答：直接在Github上上传一次无法超过100个文件<br><img src="https://s2.loli.net/2022/12/22/JElGW6nQVdmrwiN.png"></p><p>当然，也可以直接下载<a href="https://desktop.github.com/">Github Desktop</a></p><h2><span id>—</span></h2><h2><span id="准备工作">准备工作</span></h2><p>第一次使用时需要操作，以后应该就不用了。</p><h2><span id="安装git工具">安装Git工具</span></h2><p><strong>下载</strong><br>进入Git官网进行下载：<a href="https://git-scm.com/downloads">Git下载官网</a><br><img src="https://s2.loli.net/2022/12/22/U7oN2erDKOi3yPb.png"></p><p><strong>安装</strong><br>安装过程随缘，可以都选默认（一直点Next）。</p><h2><span id="绑定账号">绑定账号</span></h2><p>首先打开Git Bash<br><img src="https://s2.loli.net/2022/12/22/xolbM5rjtyaf97Q.png"></p><p>接着输入指令：</p><pre class="line-numbers language-git" data-language="git"><code class="language-git">git config --global user.name "你的Github账号名"git config --global user.email "你Github绑定的邮箱"<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p><img src="https://s2.loli.net/2022/12/22/QZ7EPxGj6igobMY.png"></p><h2><span id="生成密钥">生成密钥</span></h2><p>如果已经有密钥了可以跳过。<br>输入指令：</p><pre class="line-numbers language-git" data-language="git"><code class="language-git">ssh-keygen -t rsa -C "你Github绑定的邮箱"<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>然后按几次回车（如果看到叫你输入y/n时候要输入y，不然生成无效得重新输入指令生成）</p><p><img src="https://s2.loli.net/2022/12/22/RQ6f1xoVHy7EIck.png"></p><p>然后就可以关闭Git Bash窗口了。</p><h2><span id="配置密钥">配置密钥</span></h2><p>首先找到刚才密钥的位置，默认的话应该是在C:\Users\【Users后面的文件夹是你Windows的用户名】\ .ssh<br>用记事本打开id_rsa.pub<br><img src="https://s2.loli.net/2022/12/22/6AnduBOvmFf2gE1.png"></p><p>打开后按住Ctrl+A选中所有文字，然后复制下来<br>打开Github<br>点击头像，打开Settings<br><img src="https://s2.loli.net/2022/12/22/lCIYckq9LaMhToR.png"></p><p>点击SSH and GPG keys<br><img src="https://s2.loli.net/2022/12/22/adPmA2HF3ZyjoLT.png"></p><p>添加一个新的SSH key<br><img src="https://s2.loli.net/2022/12/22/Mt5zVvJUmoZAk7w.png"></p><p>在Key里面粘贴刚才复制的文字（密钥）。<br><img src="https://s2.loli.net/2022/12/22/fpcauLEVGbFSCJm.png"></p><p>之后应该会要求你输入Github密码。</p><p>这样就配置好了</p><h2><span id>—</span></h2><h2><span id="上传文件">上传文件</span></h2><p>Github建库<br>现在Github上创建一个库<br><img src="https://s2.loli.net/2022/12/22/742bdoijamPMJeN.png"><br><img src="https://s2.loli.net/2022/12/22/nZJDCi3QxXwTycL.png"></p><p><strong>上传本地文件</strong><br>打开你所要上传的文件所在的文件夹。<br>右键点击空白处，选择Git Bash Here<br>如果你没有这个选项的话就按照之前步骤打开Git Bash，输入指令：</p><pre class="line-numbers language-git" data-language="git"><code class="language-git">cd 文件位置<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><img src="https://s2.loli.net/2022/12/22/sravUxfj5BhyWlb.png"><br>输入指令（这个一般一个文件夹只需输入一次）：</p><pre class="line-numbers language-git" data-language="git"><code class="language-git">git init<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>完成后你会发现文件夹里多了一个隐藏文件夹.git</p><p>在输入指令：(分开依次输入)</p><pre class="line-numbers language-git" data-language="git"><code class="language-git">git add .git commit -m "提交文件"<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>git commit -m “提交文件”双引号内是注释，会显示在库里面<br><img src="https://s2.loli.net/2022/12/22/ktOlqjg2yH6RnaF.png"></p><p>然后我们去刚刚创建的库里面复制HTTPS地址<br><img src="https://s2.loli.net/2022/12/22/bd3UzpflY9y8CG4.png"></p><p>输入指令：</p><pre class="line-numbers language-git" data-language="git"><code class="language-git">git remote add origin 库的HTTPS地址<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><img src="https://s2.loli.net/2022/12/22/8ryzZhnodGWOj4M.png"></p><p>最后输入</p><pre class="line-numbers language-git" data-language="git"><code class="language-git">git push -u origin master<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>文件就开始上传了<br>（接下来就是就看Github抽不抽风了，如果它不抽风的话看见以下情况基本就算上传成功了）<br><img src="https://s2.loli.net/2022/12/22/fY1pt8KeRB2W7vP.png"></p><p>上传成功后文件就在Github里面了</p><p><img src="https://s2.loli.net/2022/12/22/zLR4DEmvXokfl7N.png"><br>如果抽风的话显示上传失败的话就多试几次吧…（最近Github抽风有点厉害，登录上去都是个问题，更别说上传文件了）<br>（下图是我上传失败时候的样子）<br><img src="https://s2.loli.net/2022/12/22/c1zAv2y43JdSEPk.png"><br><img src="https://s2.loli.net/2022/12/22/YtF9NlcJE7dLZDR.png"></p><h2><span id>—</span></h2><h2><span id="设置默认分支">设置默认分支</span></h2><p>上传之后可能会发现自己上传的文件不在默认分支（默认分支就是打开库优先显示的页面/分支）<br>可以在设置中更改：<br><img src="https://s2.loli.net/2022/12/22/vqgmhlsJAw83dUQ.png"><br><img src="https://s2.loli.net/2022/12/22/pnuTZtj9UYiN2w4.png"></p><h2><span id="end">END</span></h2><p>感谢您的阅读！若有错误欢迎指出，我会及时改正。<br>如果对您有帮助的话可以留言、转发。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Github </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Git </tag>
+            
+            <tag> Github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>将你的Scratch作品打包成html或exe格式！</title>
       <link href="/posts/62638.html"/>
       <url>/posts/62638.html</url>
